@@ -25,7 +25,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;   
 }
 
 .list {
@@ -39,8 +39,6 @@ body {
     text-decoration: none;
 }
 
-
-
 .logo {
     font-family: var(--second-font);
     font-style: normal;
@@ -50,7 +48,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-first-part-color);
-    }
+}
 
 .visually-hidden {
     position: absolute;
@@ -63,7 +61,7 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    }     
+}     
 
 /* ----------header--------- */
 .header {
@@ -93,6 +91,7 @@ body {
 .header-address {
 }
 .header-mail {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -106,6 +105,7 @@ body {
 }
     
 .header-tel {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -121,7 +121,7 @@ body {
 /* ----------hero--------- */
 .hero {
     background: var(--background-hero-color);
-   }
+}
 
 .hero-title {
     font-size: 56px;
@@ -131,6 +131,7 @@ body {
 }
 
 .hero-btn {
+    font-family: inherit;    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -142,14 +143,14 @@ body {
 
 /* ----------feature--------- */
 .feature {
-    }
+}
 .feature-title {
-
-    }
+}
 .feature-list {
-    }
+}
 .feature-item {
-    }
+}
+
 .feature-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -242,6 +243,7 @@ body {
 .filters-item {
 }
 .filters-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height:1.5;
@@ -271,8 +273,8 @@ body {
 }
 .works-text {
     font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--main-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
 }
